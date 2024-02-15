@@ -45,11 +45,15 @@ on boot
     setprop sys.usb.config adb
 
 on property:twrp.modules.loaded=true
+    mkdir /firmware
+    mount vfat /dev/block/bootdevice/by-name/modem${ro.boot.slot_suffix} /firmware ro
     # Load ADSP firmware for PMIC
     wait /sys/kernel/boot_adsp/boot
     write /sys/kernel/boot_adsp/boot 1
     wait /sys/class/power_supply/battery
     start health-hal-2-1    
+    start vibratordefault-hal-service
+    umount /firmware
 
 on property:ro.boot.fastboot=1
     # Load ADSP firmware for PMIC
