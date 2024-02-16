@@ -107,6 +107,7 @@ subsystem mem_buf_vm
 /dev/synx_device          0660   root       camera
 /dev/hab                  0666   system     system
 /dev/iio:device*          0664   system     system
+/dev/ndt                  0666   system     system
 
 #permissions for UFS RPMB BSG device node
 /dev/0:0:0:49476          0600   system     system
@@ -294,6 +295,7 @@ subsystem mem_buf_vm
 /dev/aud_pasthru_adsp     0660   system     audio
 /dev/msm_audio_ion_cma    0660   system     audio
 /dev/msm_audio_ion        0660   system     audio
+/dev/msm_cirrus_playback  0660   system     audio
 /dev/ttyHSL1              0660   system     system
 /dev/ttyHS1               0660   system     system
 /dev/mdm                  0660   system     radio
@@ -562,19 +564,3 @@ subsystem mem_buf_vm
 
 # devcoredump data attributes
 /sys/class/devcoredump/devcd*                           data                            0600    system  system
-
-# qdss sysfs node attributes
-/sys/bus/coresight/devices/coresight-tmc-etf/curr_sink          0664   system   system
-/sys/bus/coresight/devices/coresight-tmc-etf/enable_sink        0664   system   system
-/sys/bus/coresight/devices/coresight-tmc-etr/curr_sink          0664   system   system
-/sys/bus/coresight/devices/coresight-tmc-etr/enable_sink        0664   system   system
-/sys/bus/coresight/devices/coresight-tmc-etr/out_mode           0664   system   system
-/sys/bus/coresight/devices/coresight-tpiu/curr_sink             0664   system   system
-/sys/bus/coresight/devices/coresight-tpiu/out_mode              0664   system   system
-/sys/bus/coresight/devices/coresight-stm/enable                 0664   system   system
-/sys/bus/coresight/devices/coresight-stm/enable_source          0664   system   system
-/sys/bus/coresight/devices/coresight-hwevent/enable             0664   system   system
-/sys/bus/coresight/devices/coresight-stm/hwevent_enable         0664   system   system
-/sys/bus/coresight/devices/coresight-hwevent/setreg             0664   system   system
-/sys/bus/coresight/devices/coresight-swao-csr/timestamp         0664   system   system
-/sys/bus/coresight/devices/coresight-modem-diag/enable_source   0664   system   system

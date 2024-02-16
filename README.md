@@ -31,11 +31,11 @@ Camera  | 50 MP Leica lens (wide)
 - [X] MTP
 - [X] Sideload
 - [X] USB OTG
+- [X] Decryption
 
 尚未工作：
-
-- [ ] Decryption
 - [ ] Vibrator
+- [ ] Battery
 
 ## To use it:
 

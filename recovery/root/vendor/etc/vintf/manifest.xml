@@ -476,15 +476,6 @@
         </interface>
         <fqname>@1.0::IQspmhal/default</fqname>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.health</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IHealth</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <sepolicy>
         <version>33.0</version>
     </sepolicy>
