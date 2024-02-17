@@ -1,4 +1,4 @@
-# TWRP device tree for MEIZU 20 MEIZU 20 Classic
+# TWRP device tree for MEIZU 20 and MEIZU 20 Classic
 
 MEIZU 20 (codenamed _"m2381"_) is a high-end smartphone from meizu.
 
