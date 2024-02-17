@@ -153,7 +153,6 @@ TW_DEFAULT_LANGUAGE := zh_CN
 TW_DEFAULT_BRIGHTNESS := 400
 TW_EXCLUDE_APEX := true
 TW_HAS_EDL_MODE := true
-TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko qti_battery_charger.ko qti_battery_debug.ko rproc_qcom_common.ko qcom_q6v5.ko qcom_q6v5_pas.ko qcom_esoc.ko qcom_sysmon.ko"
 
 #TW_NO_SCREEN_BLANK := true
 TW_BATTERY_SYSFS_WAIT_SECONDS := 6
