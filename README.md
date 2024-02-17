@@ -18,7 +18,7 @@ Camera  | 50 MP Leica lens (wide)
 
 ## Device picture
 
-![meizu 20](https://www.devicespecifications.com/images/model/2e815c4f/640/main.jpg)
+![meizu 20](https://phonedb.net/img/meizu_20_classic.jpg)
 
 ## Features
 
